@@ -1,0 +1,133 @@
+/* Universal Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global body styling */
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: #ffffff;
+    color: #000000;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+/* Container */
+#container, .container {
+    background: red;
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+    height: auto;
+    border: 1px solid black;
+}
+
+/* Main Navigation */
+.main-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    padding: 20px;
+    background: #ffffff;
+    font-size: 13px;
+    border: 1px solid black;
+    width: 100%;
+}
+
+.main-nav .logo {
+    width: 110px;
+}
+
+.main-nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.main-nav .main-menu {
+    margin-right: auto;
+    margin-left: 20px;
+}
+
+.main-nav ul li {
+    margin-right: 10px;
+}
+
+.main-nav a {
+    color: #262626;
+    text-decoration: none;
+    padding-bottom: 2px;
+}
+
+.main-nav a:hover {
+    border-bottom: 2px solid #262626;
+}
+
+/* Etape 5: Showcase Section */
+/* Etape 5: Showcase Section */
+.showcase {
+    background: #ffffff url('../img/slide1.png') no-repeat center 50px;
+    background-size: 30%;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+    border: none;
+    text-align: center;
+}
+
+/* Titles and paragraphs inside showcase */
+.showcase h2, .showcase p {
+    margin-bottom: 10px;
+}
+
+/* Button styling - Fully rounded pill shape */
+.btn {
+    display: inline-block;
+    background: #378ff5;
+    color: #ffffff;
+    padding: 10px 25px;
+    border-radius: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+/* Dark variant inversion */
+.showcase.dark {
+    color: #ffffff;
+}
+
+.showcase.dark .btn {
+    background: #f4f4f4;
+    color: #333333;
+}
+
+/* Sections (Step 3) */
+.home-cards, .ruban, .follow, .links, .sub-footer, #bigData-intro {
+    background: #d3eaac;
+    width: 100%;
+    height: 100px;
+    border: 1px solid black;
+}
+
+/* Footer styling */
+footer {
+    background: red;
+    width: 100%;
+    height: 100px;
+    border: 1px solid black;
+}
